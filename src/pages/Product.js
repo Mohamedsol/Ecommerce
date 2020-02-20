@@ -47,7 +47,7 @@ import {connect} from "react-redux";
             <div>
                  <div className={'row'}>
                     <div className ="col-6">
-                        <img src={product.image} width={'90%'}/>
+                        <img src={product.image} width={'90%'} height={'400px'}/>
                     </div>
                     <div className ="col-6">
 

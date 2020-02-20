@@ -1,0 +1,46 @@
+
+.Nav-1{
+    width: 70%;
+    margin: auto;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    margin-left: 90px;
+}
+
+.carousel-caption {
+right: -33%;
+bottom: 128px;
+}
+
+.navbar-brand {
+    border: solid 2px #000;
+    padding: 0 10px 5px;
+}
+
+.deal {
+    background-color: #000;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: initial;
+    color: #ffffff;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.deal span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #dc3545;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+
+    height: 400px;
+}
+
+.carousel-item img {
+    max-height: 700px;
+}
