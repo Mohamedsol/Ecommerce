@@ -15,9 +15,9 @@ export default function Arousel() {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3 className="text-dark">First slide label</h3>
+                <h3 className="text-dark">20%-70% OFF</h3>
                 <p className="text-dark"> Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <Button variant="dark">Shop Women</Button>
+                <a href="/products" className="btn courasel-btn" >Shop Women</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -28,9 +28,9 @@ export default function Arousel() {
                 />
 
                 <Carousel.Caption>
-                <h3 className="text-dark">First slide label</h3>
+                <h3 className="text-dark">20%-70% OFF</h3>
                 <p className="text-dark"> Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <Button variant="dark">Shop Men</Button>
+                <a href="/products" className="btn courasel-btn" >Shop Men</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -41,9 +41,9 @@ export default function Arousel() {
                 />
 
                 <Carousel.Caption>
-                <h3 className="text-dark">First slide label</h3>
+                <h3 className="text-dark">20%-70% OFF</h3>
                 <p className="text-dark"> Nulla vitae elit libero,</p>
-                <Button variant="dark">Shop Kids</Button>
+                <a href="/products" className="btn courasel-btn " >Shop Kids</a>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

@@ -7,10 +7,10 @@ export default function ProductItem(props){
         <div>
             <div className="card" style={{width: '13rem;'}}>
                 <img src={product.image} className="card-img-top" alt="..." />
-                <div className="card-body">
-                    <h5 className="card-title">{product.name}</h5>
-                    <p className="card-text">${product.price}</p>
-                    <a href={"/products/" + product.id} className="btn btn-primary">Add to chart</a>
+                <div className="card-body ">
+                    <h5 className="card-title" style={{textAlign: "center"}}>{product.name}</h5>
+                    <p className="card-text" style={{textAlign: "center"}}>${product.price}</p>
+                    <a href={"/products/" + product.id} className="btn Product-btn d-block" >Add to chart</a>
                 </div>
             </div> 
         </div>

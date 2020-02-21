@@ -37,10 +37,57 @@ bottom: 128px;
 }
 
 .card-img, .card-img-bottom, .card-img-top {
-
     height: 400px;
 }
 
 .carousel-item img {
     max-height: 700px;
+    margin-bottom: 50px;
+}
+
+.courasel-btn {
+        color: #ffffff;
+        background-color: #222222;
+        border-color: #222222;
+        width: 150px;
+        padding: 11px 25px;
+        line-height: initial;
+        border-radius: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 14px;
+}
+
+
+.courasel-btn:hover{
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.Product-btn{
+    
+        background-color: #ffffff;
+        color: #222222;
+        border-color: #222222;
+        padding: 11px 25px;
+        line-height: initial;
+        border-radius: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 14px;
+}
+
+.Product-btn:hover {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.card{
+    border: transparent;
+    margin-bottom: 20px;
 }

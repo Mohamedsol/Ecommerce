@@ -16,12 +16,9 @@ function App() {
     <Deal /> 
     <Navbar />
     <Route exact path="/" component={Home} />
-    <div className="container">
       <Route exact path="/products" component={Products} />
       <Route path="/products/:id" component={Product} />
       <Route path="/cart" component={Cart} />
-    
-    </div>
     </Router>
   );
 }
