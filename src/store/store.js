@@ -12,7 +12,7 @@ const initialState = {
                 "image":"/images/1.jpg",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
             },
-            quantity: 4
+            quantity: 1
         }
     ]
 };

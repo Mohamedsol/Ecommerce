@@ -16,6 +16,7 @@ import {clearCart} from "../store/Actions/action";
     render(){
     return (
         <div>
+            <div className="container">
             <h1>Cart</h1>
             <div className="row">
            {this.props.cartItems.map((item, index) =>
@@ -26,6 +27,7 @@ import {clearCart} from "../store/Actions/action";
             </div>
            <h3>Total:{this.props.total}</h3>
             <button onClick={this.placeOrder}   class="btn btn-primary btn-block">Place Order</button>
+            </div>
         </div>
 
         )

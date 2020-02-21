@@ -41,7 +41,7 @@ bottom: 128px;
 }
 
 .carousel-item img {
-    max-height: 700px;
+    max-height:630px;
     margin-bottom: 50px;
 }
 
@@ -91,3 +91,4 @@ bottom: 128px;
     border: transparent;
     margin-bottom: 20px;
 }
+
