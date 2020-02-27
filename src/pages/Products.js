@@ -34,7 +34,11 @@ export default class Products extends React.Component{
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
-
+            <div className="section-title text-center">
+                
+                <h2><span className="dot"></span>
+                    Trending Products</h2>
+            </div>
             <div className="container">
             <div className="row">
            {this.state.products.map(product =>
