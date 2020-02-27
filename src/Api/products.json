@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "name": "aaaa",
+        "name": "Linen trim t-shirt",
         "price": 100,
         "image":"/images/1.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
@@ -9,60 +9,72 @@
 
     {
         "id":2,
-        "name": "bbbb",
-        "price": 100,
+        "name": "Neck empire sleeve",
+        "price": 190,
         "image":"/images/2.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
       
     {
         "id":3,
-        "name": "cccc",
-        "price": 100,
+        "name": "Mermaid t-shirts",
+        "price": 120,
         "image":"/images/3.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
        
     {"id":4,
-        "name": "dddd",
-        "price": 100,
+        "name": "The cosmic cornucopia",
+        "price": 160,
         "image":"/images/7.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
     {"id":5,
-        "name": "eeee",
-        "price": 100,
+        "name": "V neck bodycon",
+        "price": 110,
         "image":"/images/5.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
     {"id":6,
-        "name": "fffff",
-        "price": 100,
+        "name": "Tenku remastered",
+        "price": 130,
         "image":"/images/6.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
     {"id":7,
-        "name": "jjjj",
-        "price": 100,
+        "name": "Women's lined hoodie",
+        "price": 90,
         "image":"/images/4.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
     {"id":8,
         "name": "hhhh",
-        "price": 100,
+        "price": 170,
         "image":"/images/8.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
     {"id":9,
-        "name": "iiii",
-        "price": 100,
+        "name": "chino polo",
+        "price": 200,
         "image":"/images/9.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
     {"id":10,
-        "name": "kkkk",
+        "name": "Tenku remastered",
         "price": 100,
         "image":"/images/10.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+    },
+    {"id":11,
+        "name": "V neck bodycon",
+        "price": 110,
+        "image":"/images/11.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+    },
+    {"id":12,
+        "name": "Tenku remastered",
+        "price": 130,
+        "image":"/images/12.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     }
      

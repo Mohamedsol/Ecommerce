@@ -42,7 +42,7 @@ export default class Products extends React.Component{
             <div className="container">
             <div className="row">
            {this.state.products.map(product =>
-            <div className={"col-6  col-md-3"} key={product.id}>
+            <div className={"col-6  col-md-4 col-lg-3"} key={product.id}>
                 <ProductItem product={product} />
             </div>
             )}

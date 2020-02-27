@@ -6,9 +6,9 @@ export default function Navbar() {
   return (
     <div className="Nav-1">
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
-        <a className="navbar-brand text-danger" href="#">
+        <Link className="navbar-brand text-danger" to="/">
           <b>M</b>o<b>H</b>ao
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
