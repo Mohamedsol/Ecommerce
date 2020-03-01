@@ -68,7 +68,7 @@ function Footer(props) {
         <hr/>
         <div className="row">
             <p className="col-sm text-center pt-0">
-            Copyright &copy;{new Date().getFullYear()} Mowell. All Rights Reserved By <b>Mohamed Soltani.</b>
+            Copyright &copy;{new Date().getFullYear()} Nowel. All Rights Reserved By <b>Mohamed Soltani.</b>
             </p>
         </div>
       </div>

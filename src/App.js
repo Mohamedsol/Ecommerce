@@ -13,15 +13,20 @@ import store from "./store/store";
 
 function App() {
   return (
-    <Router>
-    <Deal /> 
-    <Navbar />
-    <Route exact path="/" component={Home} />
-      <Route exact path="/products" component={Products} />
-      <Route path="/products/:id" component={Product} />
-      <Route path="/cart" component={Cart} />
-      <Footer />
+
+    <div className="page-container">
+      <div className="content-wrap">
+      <Router>
+        <Deal /> 
+        <Navbar />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/products" component={Products} />
+        <Route path="/products/:id" component={Product} />
+        <Route path="/cart" component={Cart} />
+        <Footer />
     </Router>
+      </div>
+    </div>
   );
 }
 

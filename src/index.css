@@ -168,3 +168,113 @@ bottom: 128px;
 .fa-star:before {
     content: "\F005";
 }
+
+.page-contaiber {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap{
+    flex: 1;
+}
+
+
+.Product-item{
+    padding: 30px;
+    width: 700px;
+}
+.product-review{
+    display: flex;
+    align-items: center;
+}
+
+.rating-count {
+    display: inline-block;
+    color: #222222;
+    border-bottom: 1px solid #222222;
+    line-height: initial;
+    margin: 0 0 12px 12px;
+    padding-left: 7px;
+}
+
+.rating-count:hover{
+    text-decoration: none;
+    color: #222222;
+}
+.product-size-wrapper h4 {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.product-size-wrapper {
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.product-size-wrapper ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-left: 0;
+}
+
+
+.product-size-wrapper ul li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.product-size-wrapper ul li a {
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    border: 1px solid #eeeeee;
+    color: #858585;
+    text-align: center;
+}
+.product-size-wrapper ul li a:hover {
+    text-decoration: none;
+}
+.product-size-wrapper ul li.active a, li.active a:hover {
+    border-color: #222222;
+    color: #222222;
+}
+.product-size-wrapper ul li a:hover {
+    border-color: #222222;
+    color: #222222;
+}
+
+.Product-item input[type='number']{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.Product-item button {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #222222;
+    width: 150px;
+    padding: 11px 25px;
+    line-height: initial;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.Product-item button:hover{
+background-color: #ffffff;
+color: #222222;
+outline: none;
+}
