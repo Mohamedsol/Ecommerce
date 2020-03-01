@@ -16,7 +16,7 @@ import {removeFromCart} from "../store/Actions/action"
                     <p className="card-text mb-0">${product.price}</p>
                     Quantity: {item.quantity}
                     <br />
-                    Total: {item.quantity * product.price}
+                    Total: ${item.quantity * product.price}
                     <br />
                     <button  onClick={()=> props.removeFromCart(index)} className="btn btn-danger" >
                         <i className="fa fa-trash"> </i> Delete

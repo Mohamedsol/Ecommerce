@@ -1,11 +1,11 @@
 import React from 'react';
-import ProductItem from "../Components/ProductItem";
+import ProductI from "../Components/ProductI";
 import ProductsApi from "../Api/products";
 import {Carousel} from 'react-bootstrap';
 import img10 from '../img/img10.jpg';
 
 
-export default class Products extends React.Component{
+export default class Men extends React.Component{
     state = {
         products:[],
     };
@@ -17,7 +17,12 @@ export default class Products extends React.Component{
             })
         });
     }
+    
+
     render(){
+        let namesList = this.state.products.filter((product) => {
+            return product.price = 100 })
+
     return (
         <div>
             <div className="section-title text-center">
@@ -27,9 +32,9 @@ export default class Products extends React.Component{
             </div>
             <div className="container">
             <div className="row">
-           {this.state.products.map(product =>
+           {this.state.namesList.map(product =>
             <div className={"col-6  col-md-4 col-lg-3"} key={product.id}>
-                <ProductItem product={product} />
+                <ProductI namesList={namesList} />
             </div>
             )}
             </div>

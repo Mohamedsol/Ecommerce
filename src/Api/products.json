@@ -2,7 +2,7 @@
     {
         "id":1,
         "name": "Linen trim t-shirt",
-        "price": 100,
+        "price": 200,
         "image":"/images/1.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
@@ -49,7 +49,7 @@
     },
     {"id":8,
         "name": "hhhh",
-        "price": 170,
+        "price": 70,
         "image":"/images/8.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },
@@ -61,7 +61,7 @@
     },
     {"id":10,
         "name": "Tenku remastered",
-        "price": 100,
+        "price": 80,
         "image":"/images/10.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
     },

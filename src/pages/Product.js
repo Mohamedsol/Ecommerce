@@ -40,7 +40,7 @@ class Product extends React.Component {
     return (
       <div className="container Product-item">
         <div className={"row"}>
-          <div className="col-6">
+          <div className="col-8 col-md-6">
             <img src={product.image} width={"90%"} height={"400px"} />
           </div>
           <div className="col-6">

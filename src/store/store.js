@@ -7,8 +7,8 @@ const initialState = {
         {
             product:  {
                 "id":1,
-                "name": "aaaa",
-                "price": 100,
+                "name": "Linen trim t-shirt",
+                "price": 200,
                 "image":"/images/1.jpg",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
             },
