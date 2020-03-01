@@ -13,9 +13,7 @@ import store from "./store/store";
 
 function App() {
   return (
-
-    <div className="page-container">
-      <div className="content-wrap">
+    
       <Router>
         <Deal /> 
         <Navbar />
@@ -24,9 +22,9 @@ function App() {
         <Route path="/products/:id" component={Product} />
         <Route path="/cart" component={Cart} />
         <Footer />
-    </Router>
-      </div>
-    </div>
+      </Router>
+      
+      
   );
 }
 
