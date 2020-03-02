@@ -1,7 +1,7 @@
 import React from 'react';
 import Arousel from '../Components/Carousel'
 import Products from './Products'
-import Men from './Men'
+
 
 
 
