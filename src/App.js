@@ -1,6 +1,8 @@
 import React from 'react';
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+import Men from "./pages/Men";
+import Kids from "./pages/Kids";
 import Cart from "./pages/Cart";
 import Navbar from "./pages/Navbar";
 import Product from "./pages/Product";
@@ -19,6 +21,8 @@ function App() {
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/products" component={Products} />
+        <Route exact path="/men" component={Men} />
+        <Route exact path="/kid" component={Kids} />
         <Route path="/products/:id" component={Product} />
         <Route path="/cart" component={Cart} />
         <Footer />

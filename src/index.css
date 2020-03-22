@@ -315,3 +315,43 @@ li.active a:hover {
 .btn-danger{ 
     border-radius: 0;
 }
+
+.men-product-img{
+  height: 90vh;
+  position: relative;
+}
+
+.men-product-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.imge-caption{
+  color: #fff;
+  position: absolute;
+  bottom: 5rem;
+  left: 3rem;
+}
+.imge-caption p {
+  color: #fff;
+}
+
+.kid-product-img{
+  height: 90vh;
+  position: relative;
+}
+
+.kid-product-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.kid-product-img.imge-caption{
+  color: #fff;
+  position: absolute;
+  bottom: 5rem;
+  left: 3rem;
+}
+.kid-product-img.imge-caption p {
+  color: #fff;
+}
