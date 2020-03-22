@@ -355,3 +355,21 @@ li.active a:hover {
 .kid-product-img.imge-caption p {
   color: #fff;
 }
+.kid-product-img.imge-caption a {
+  background-color: #fff;
+}
+
+.Women-product-img{
+  height: 90vh;
+  position: relative;
+}
+.Women-product-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.Women-product-img.imge-caption{
+  position: absolute;
+  bottom: 5rem;
+  left: 3rem;
+}

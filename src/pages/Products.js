@@ -1,8 +1,6 @@
 import React from 'react';
 import ProductItem from "../Components/ProductItem";
 import ProductsApi from "../Api/products";
-import {Carousel} from 'react-bootstrap';
-import img10 from '../img/img10.jpg';
 
 
 export default class Products extends React.Component{
@@ -27,7 +25,7 @@ export default class Products extends React.Component{
             </div>
             <div className="container">
             <div className="row">
-           {this.state.products.filter( product => product.Gender === "Female").map(product =>
+           {this.state.products.filter( product => product.price >= 100).map(product =>
             <div className={"col-6  col-md-4 col-lg-3"} key={product.id}>
                 <ProductItem product={product} />
             </div>
