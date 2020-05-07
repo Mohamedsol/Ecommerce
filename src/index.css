@@ -13,9 +13,9 @@ body {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
-    margin-right: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -62,7 +62,8 @@ p {
 }
 
 .carousel-item img {
-  max-height: 630px;
+  
+  max-height: 700px;
   margin-bottom: 50px;
 }
 
@@ -287,24 +288,23 @@ li.active a:hover {
 }
 
 .cart-item {
-    flex-wrap: 1;
+  flex-wrap: 1;
   margin-top: 50px;
   margin-bottom: 150px;
 }
 .order-btn {
-    color: #ffffff;
-    background-color: #222222;
-    border-color: #222222;
-    padding: 11px 25px;
-    line-height: initial;
-    border-radius: 0;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 14px;
-    outline: none;
-    
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+  padding: 11px 25px;
+  line-height: initial;
+  border-radius: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  outline: none;
 }
 .order-btn:hover {
   background-color: #ffffff;
@@ -312,11 +312,11 @@ li.active a:hover {
   outline: none;
 }
 
-.btn-danger{ 
-    border-radius: 0;
+.btn-danger {
+  border-radius: 0;
 }
 
-.men-product-img{
+.men-product-img {
   height: 90vh;
   position: relative;
 }
@@ -326,7 +326,7 @@ li.active a:hover {
   width: 100%;
 }
 
-.imge-caption{
+.imge-caption {
   color: #fff;
   position: absolute;
   bottom: 5rem;
@@ -336,7 +336,7 @@ li.active a:hover {
   color: #fff;
 }
 
-.kid-product-img{
+.kid-product-img {
   height: 90vh;
   position: relative;
 }
@@ -346,7 +346,7 @@ li.active a:hover {
   width: 100%;
 }
 
-.kid-product-img.imge-caption{
+.kid-product-img.imge-caption {
   color: #fff;
   position: absolute;
   bottom: 5rem;
@@ -359,7 +359,7 @@ li.active a:hover {
   background-color: #fff;
 }
 
-.Women-product-img{
+.Women-product-img {
   height: 90vh;
   position: relative;
 }
@@ -368,7 +368,7 @@ li.active a:hover {
   width: 100%;
 }
 
-.Women-product-img.imge-caption{
+.Women-product-img.imge-caption {
   position: absolute;
   bottom: 5rem;
   left: 3rem;
